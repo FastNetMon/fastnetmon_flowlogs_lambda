@@ -1,8 +1,10 @@
 # Introduction
 
-Amazon AWS Lambda function to transform AWS VPC Flow Logs into format suitable for FastNetMon
+Amazon AWS Lambda function to transform AWS VPC Flow Logs into format suitable for FastNetMon.
 
-You can find details guide here: https://fastnetmon.com/docs-fnm-advanced/fastnetmon-and-amazon-vpc-flow-logs/
+As an additional feature we have logic to replace internal IPs by external globally routable IPs with caching logic. 
+
+You can find detailed guide here: https://fastnetmon.com/docs-fnm-advanced/fastnetmon-and-amazon-vpc-flow-logs/
 
 # Build process
 
