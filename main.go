@@ -239,7 +239,7 @@ func decode_vpc_flow_log(message string) (*VPCFlowLog, error) {
 	src_port_number, err := strconv.Atoi(src_port)
 
 	if err != nil {
-		return nil, fmt.Errorf("Cannot decode source port: %w")
+		return nil, fmt.Errorf("Cannot decode source port: %w", err)
 	}
 
 	flow_log.Src_port = uint16(src_port_number)
@@ -247,7 +247,7 @@ func decode_vpc_flow_log(message string) (*VPCFlowLog, error) {
 	dst_port_number, err := strconv.Atoi(dst_port)
 
 	if err != nil {
-		return nil, fmt.Errorf("Cannot decode destination port: %w")
+		return nil, fmt.Errorf("Cannot decode destination port: %w", err)
 	}
 
 	flow_log.Dst_port = uint16(dst_port_number)
