@@ -9,9 +9,8 @@ You can find detailed guide here: https://fastnetmon.com/docs-fnm-advanced/fastn
 # Build process
 
 ```
-go build
-cp bin/fastnetmon_flowlogs_lambda fastnetmon_flowlogs_lambda
-zip fastnetmon_flowlogs_lambda.zip fastnetmon_flowlogs_lambda
+GOOS=linux GOARCH=amd64 go build -o bootstrap main.go
+zip lambda-handler.zip bootstrap
 ```
 
 # Cap'n'Proto schema rebuild
