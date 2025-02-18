@@ -56,7 +56,7 @@ github.com/aws/aws-sdk-go/service/sts/stsiface
 github.com/jmespath/go-jmespath
 # github.com/tinylib/msgp v1.1.8
 ## explicit; go 1.15
-# golang.org/x/net v0.31.0
+# golang.org/x/net v0.33.0
 ## explicit; go 1.18
 golang.org/x/net/context
 # zombiezen.com/go/capnproto2 v2.18.2+incompatible
