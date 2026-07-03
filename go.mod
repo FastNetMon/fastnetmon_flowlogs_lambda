@@ -1,6 +1,6 @@
 module github.com/fastnetmon/fastnetmon_flowlogs_lambda
 
-go 1.17
+go 1.25.0
 
 require (
 	github.com/aws/aws-lambda-go v1.47.0
@@ -11,5 +11,5 @@ require (
 require (
 	github.com/jmespath/go-jmespath v0.4.0 // indirect
 	github.com/tinylib/msgp v1.1.8 // indirect
-	golang.org/x/net v0.38.0 // indirect
+	golang.org/x/net v0.55.0 // indirect
 )
